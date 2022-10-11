@@ -1,0 +1,95 @@
+% format all .cpp code:
+% $ clang-format -style=file -i **/*.cpp
+
+\section{General}
+\subsection{vimrc}
+\lstinputlisting[language={}]{1-general/vimrc}
+\subsection{Default Code}
+\lstinputlisting{1-general/default.cpp}
+\subsection{Splitmix64}
+\lstinputlisting{1-general/splitmix64.cpp}
+\subsection{Optimization}
+\lstinputlisting{1-general/optimize.cpp}
+
+\section{Math \& Polynomials}
+\subsection{Theorems}
+\input{2-math/theorems.tex}
+\subsection{Fast pow}
+\lstinputlisting{2-math/fast_pow.cpp}
+\subsection{Extended GCD}
+\lstinputlisting{2-math/exgcd.cpp}
+\subsection{Prime Sieve}
+\lstinputlisting{2-math/prime_sieve.cpp}
+\subsection{Prime Numbers}
+\lstinputlisting{2-math/primes.txt}
+\subsection{Mod Inverse}
+\lstinputlisting{2-math/mod_inverse.cpp}
+\subsection{Chinese Remainder Theorem}
+\lstinputlisting{2-math/crt.cpp}
+% tested on Library Checker convolution_mod_1000000007
+\subsection{Millar Robin}
+\lstinputlisting{2-math/millar_robin.cpp}
+% tested on Library Checker factorize
+\subsection{Pollard's Rho}
+\lstinputlisting{2-math/pollards_rho.cpp}
+% tested on Library Checker factorize
+\subsection{Polynomials}
+\subsubsection{FFT*}
+\lstinputlisting{2-math/fft.cpp}
+% not tested!
+\subsubsection{NTT}
+\lstinputlisting{2-math/ntt.cpp}
+% tested on Library Checker convolution_mod_1000000007 and CSES 2111/2112/2113
+
+\section{Geometry}
+\subsection{Vector Operations}
+\lstinputlisting{3-geometry/vector.cpp}
+\subsection{Convex Hull}
+\lstinputlisting{3-geometry/convex_hull.cpp}
+% tested on CSES 2195
+\subsection{Polar Angle Sorting}
+\lstinputlisting{3-geometry/polar_sort.cpp}
+
+\section{Data Structure}
+\subsection{BIT}
+\lstinputlisting{4-ds/bit.cpp}
+\subsection{Segment Tree with Lazy Tags}
+\lstinputlisting{4-ds/lazy_segtree.cpp}
+% tested on Library Checker range_affine_range_sum
+\subsection{Treap}
+\lstinputlisting{4-ds/treap.cpp}
+% tested on CSES 2074
+
+\section{Graph \& Flow}
+\subsection{Edge BCC}
+\lstinputlisting{5-graph/tarjan_edge_bcc.cpp}
+% tested on Library Checker two_edge_connected_components and CSES 2076
+\subsection{Articulation Points}
+\lstinputlisting{5-graph/tarjan_vertex_bcc.cpp}
+% tested on CSES 2077
+\subsection{SCC}
+\lstinputlisting{5-graph/scc.cpp}
+% tested on Library Checker scc and CSES 1684
+\subsection{Dinic}
+\lstinputlisting{5-graph/dinic.cpp}
+% tested on CSES 1694/1695/1696/1711
+\subsection{Min Cost Max Flow}
+\lstinputlisting{5-graph/mcmf.cpp}
+
+\section{String}
+\subsection{Z Algorithm}
+\lstinputlisting{6-string/z.cpp}
+% tested on Library Checker zalgorithm and CSES 1753
+\subsection{KMP}
+\lstinputlisting{6-string/kmp.cpp}
+% tested on CSES 1753
+\subsection{Manacher's Algorithm}
+\lstinputlisting{6-string/manacher.cpp}
+% tested on Library Checker enumerate_palindromes
+\subsection{Minimal Rotation}
+\lstinputlisting{6-string/minimal_rotation.cpp}
+% tested on CSES 1110
+\subsection{SA \& LCP}
+\lstinputlisting{6-string/sa_lcp.cpp}
+% tested on Library Checker suffixarray/number_of_substrings
+
